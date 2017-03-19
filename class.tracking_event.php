@@ -13,8 +13,6 @@ require_once __DIR__ . '/class.ugp_client.php';
  * Use CURL class to execute the web services
  *
  * @author     Code implementation : David Raleche <david.raleche@high5games.com>
- * @version    September 29th 2015
- *
  */
 
 class TrackingEvent
