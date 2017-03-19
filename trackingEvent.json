@@ -1,0 +1,202 @@
+{
+    "actionCode" :
+            {
+                "FB_CANVAS_GAME_LEVEL_UP_CLICK_SHARE": "960",
+                "FB_CANVAS_PLAYER_LEVEL_UP_CLICK_SHARE": "950",
+
+                "FB_CANVAS_LOBBY_STORY": "975",
+                "FB_CANVAS_LOBBY_STORY_FAIL": "975",
+                "FB_CANVAS_PLAY_STORY": "980",
+                "FB_CANVAS_PLAY_STORY_FAIL": "980",
+                "FB_CANVAS_GAME_LEVEL_UP_STORY": "965",
+                "FB_CANVAS_GAME_LEVEL_UP_STORY_FAIL": "965",
+                "FB_CANVAS_PLAYER_LEVEL_UP_STORY": "955",
+                "FB_CANVAS_PLAYER_LEVEL_UP_STORY_FAIL": "955",
+                "FB_CANVAS_BIG_WIN_STORY": "990",
+                "FB_CANVAS_BIG_WIN_STORY_FAIL": "990",
+                "FB_CANVAS_HIT_THE_BONUS_STORY": "1000",
+                "FB_CANVAS_HIT_THE_BONUS_STORY_FAIL": "1000",
+
+                "FB_CANVAS_TOURNAMENT_CLASH_BAST": "1060",
+                "FB_CANVAS_TOURNAMENT_CLASH_BAST_FAIL": "1060",
+                "FB_CANVAS_TOURNAMENT_PRIZE_PARTY": "1010",
+                "FB_CANVAS_TOURNAMENT_PRIZE_PARTY_FAIL": "1010",
+                "FB_CANVAS_TOURNAMENT_COLOSSAL_CLASH": "1020",
+                "FB_CANVAS_TOURNAMENT_COLOSSAL_CLASH_FAIL": "1020",
+                "FB_CANVAS_TOURNAMENT_50-50": "1030",
+                "FB_CANVAS_TOURNAMENT_50-50_FAIL": "1030",
+                "FB_CANVAS_TOURNAMENT_HIGH_LOW": "1050",
+                "FB_CANVAS_TOURNAMENT_HIGH_LOW_FAIL": "1050",
+
+                "FB_CANVAS_CONNECT_WITH_FRIENDS": "1070",
+                "FB_CANVAS_CONNECT_WITH_FRIENDS_FAIL": "1070",
+                "FB_CANVAS_SEND_INVITE": "1080",
+                "FB_CANVAS_SEND_INVITE_FAIL": "1080",
+
+                "FB_CANVAS_ABANDONCOINSTORE": "1090",
+                "FB_CANVAS_OPENCOINSTORE": "1100",
+                "FB_CANVAS_PURCHASEDCREDITS": "1110",
+                "FB_CANVAS_ABANDONPURCHASE": "1120",
+
+                "FB_CANVAS_GAME_SNAPSHOT": "610",
+                "FB_CANVAS_GAME_SNAPSHOT_FAIL": "610",
+
+                "FB_CANVAS_UNLOCK_STORY": "970",
+
+                "FB_DYNAMIC_VIDEO_CLICK_SHARED": "1140",
+                "FB_DYNAMIC_VIDEO_CLICK_SHARED_FAIL": "1140",
+                "FB_DYNAMIC_VIDEO_PLAYING_APP": "1130",
+                "FB_DYNAMIC_VIDEO_INSTALLING_APP": "1150",
+                "FB_CANVAS_APP_INSTALL": "1170",
+                "FB_POST_PERMISSION_FAILURE": "1160",
+                "FB_POST_PERMISSION_SUCCESS": "1160",
+
+
+
+                "FB_CANVAS_TOPNAV_GIFTCENTER_OPEN": "1360",
+                "FB_CANVAS_FRIENDSLIST_GIFTCENTER_OPEN": "1350",
+
+                "FB_CANVAS_GIFTCENTER_CLOSE": "1400",
+                "FB_CANVAS_GIFTCENTER_SEND_OPEN": "1410",
+                "FB_CANVAS_GIFTCENTER_RECEIVE_OPEN": "1420",
+                "FB_CANVAS_GIFTCENTER_NAVBACK": "1430",
+                "FB_CANVAS_GIFTCENTER_INFO_OPEN": "1440",
+                "FB_CANVAS_GIFTCENTER_INFO_OPEN_FRIENDS": "1450",
+                "FB_CANVAS_GIFTCENTER_INFO_CLOSE": "1460",
+                "FB_CANVAS_GIFTCENTER_INVITE_OPEN_FRIEND": "1470",
+                "FB_CANVAS_GIFTCENTER_COLLECT_GIFT": "1480",
+                "FB_CANVAS_GIFTCENTER_SEND_GIFT": "1490",
+                "FB_CANVAS_GIFTCENTER_ERROR_MESSAGE": "1500",
+                "FB_CANVAS_GIFTCENTER_THANKYOU_COLLECT": "1510",
+                "FB_CANVAS_FRIENDSLIST_GIFTCENTER_OPEN": "1520",
+
+                "FB_IOS_GIFTCENTER_CLOSE": "1400",
+                "FB_IOS_GIFTCENTER_SEND_OPEN": "1410",
+                "FB_IOS_GIFTCENTER_RECEIVE_OPEN": "1420",
+                "FB_IOS_GIFTCENTER_NAVBACK": "1430",
+                "FB_IOS_GIFTCENTER_INFO_OPEN": "1440",
+                "FB_IOS_GIFTCENTER_INFO_OPEN_FRIENDS": "1450",
+                "FB_IOS_GIFTCENTER_INFO_CLOSE": "1460",
+                "FB_IOS_GIFTCENTER_INVITE_OPEN_FRIEND": "1470",
+                "FB_IOS_GIFTCENTER_COLLECT_GIFT": "1480",
+                "FB_IOS_GIFTCENTER_SEND_GIFT": "1490",
+                "FB_IOS_GIFTCENTER_ERROR_MESSAGE": "1500",
+                "FB_IOS_GIFTCENTER_THANKYOU_COLLECT": "1510",
+                "FB_IOS_FRIENDSLIST_GIFTCENTER_OPEN": "1520",
+
+                "FB_ANDROID_GIFTCENTER_CLOSE": "1400",
+                "FB_ANDROID_GIFTCENTER_SEND_OPEN": "1410",
+                "FB_ANDROID_GIFTCENTER_RECEIVE_OPEN": "1420",
+                "FB_ANDROID_GIFTCENTER_NAVBACK": "1430",
+                "FB_ANDROID_GIFTCENTER_INFO_OPEN": "1440",
+                "FB_ANDROID_GIFTCENTER_INFO_OPEN_FRIENDS": "1450",
+                "FB_ANDROID_GIFTCENTER_INFO_CLOSE": "1460",
+                "FB_ANDROID_GIFTCENTER_INVITE_OPEN_FRIEND": "1470",
+                "FB_ANDROID_GIFTCENTER_COLLECT_GIFT": "1480",
+                "FB_ANDROID_GIFTCENTER_SEND_GIFT": "1490",
+                "FB_ANDROID_GIFTCENTER_ERROR_MESSAGE": "1500",
+                "FB_ANDROID_GIFTCENTER_THANKYOU_COLLECT": "1510",
+                "FB_ANDROID_FRIENDSLIST_GIFTCENTER_OPEN": "1520",
+
+                "FB_AMAZON_GIFTCENTER_CLOSE": "1400",
+                "FB_AMAZON_GIFTCENTER_SEND_OPEN": "1410",
+                "FB_AMAZON_GIFTCENTER_RECEIVE_OPEN": "1420",
+                "FB_AMAZON_GIFTCENTER_NAVBACK": "1430",
+                "FB_AMAZON_GIFTCENTER_INFO_OPEN": "1440",
+                "FB_AMAZON_GIFTCENTER_INFO_OPEN_FRIENDS": "1450",
+                "FB_AMAZON_GIFTCENTER_INFO_CLOSE": "1460",
+                "FB_AMAZON_GIFTCENTER_INVITE_OPEN_FRIEND": "1470",
+                "FB_AMAZON_GIFTCENTER_COLLECT_GIFT": "1480",
+                "FB_AMAZON_GIFTCENTER_SEND_GIFT": "1490",
+                "FB_AMAZON_GIFTCENTER_ERROR_MESSAGE": "1500",
+                "FB_AMAZON_GIFTCENTER_THANKYOU_COLLECT": "1510",
+                "FB_AMAZON_FRIENDSLIST_GIFTCENTER_OPEN": "1520",
+
+                "FB_PAYER_PROMOTION_X_OUT": "1530",
+                "FB_PAYER_PROMOTION_FAILURE": "1540",
+                "FB_PAYER_PROMOTION_CLICK_SHARE": "1550",
+
+                "FB_ANDROIDOS_GIFTCENTER_SEND_OPEN": "1560",
+                "FB_ANDROIDOS_GIFTCENTER_RECEIVE_OPEN": "1570",
+                "FB_ANDROIDOS_GIFTCENTER_CLOSE": "1580",
+                "FB_ANDROIDOS_GIFTCENTER_THANKYOU_COLLECT": "1590",
+                "FB_ANDROIDOS_GIFTCENTER_COLLECT_GIFT": "1600",
+                "FB_ANDROIDOS_GIFTCENTER_SEND_GIFT": "1610",
+
+                "BIG_WIN_FEED_HIDE_BUTTON_CLICKED": "1620",
+                "BIG_WIN_FEED_SHOW_BUTTON_CLICKED": "1630",
+                "BIG_WIN_FEED_AREA_CLICKED": "1640",
+
+                "DAILY_WHEEL_COLLECT_PRICE_IE8_IE9": "1700",
+                "DAILY_WHEEL_INVITE_FRIEND": "1670",
+                "DAILY_WHEEL_SPIN_THE_WHEEL": "1650",
+                "DAILY_WHEEL_COLLECT_PRICE": "1660",
+                "DAILY_WHEEL_ERROR_PAGE": "1680",
+
+                "FB_CANVAS_WHEEL_SPIN_THE_WHEEL":"1650",
+                "FB_IOS_WHEEL_SPIN_THE_WHEEL":"1660",
+                "FB_ANDROID_WHEEL_SPIN_THE_WHEEL":"1670",
+                "FB_CANVAS_WHEEL_MATHSCREEN_COLLECT"  :"1680",
+                "FB_IOS_WHEEL_MATHSCREEN_COLLECT":"1690",
+                "FB_ANDROID_WHEEL_MATHSCREEN_COLLECT":"1700",
+                "FB_CANVAS_WHEEL_INVITEFRIEND_OPEN":"1710",
+                "FB_IOS_WHEEL_INVITEFRIEND_OPEN":"1720",
+                "FB_ANDROID_WHEEL_INVITEFRIEND_OPEN"  :"1730",
+                "FB_CANVAS_WHEEL_INVITEFRIEND_SUCCESS" :"1740",
+                "FB_IOS_WHEEL_INVITEFRIEND_SUCCESS"   :"1750",
+                "FB_ANDROID_WHEEL_INVITEFRIEND_SUCCESS"   :"1760",
+                "FB_CANVAS_WHEEL_INVITEFRIEND_FAIL"   :"1770",
+                "FB_IOS_WHEEL_INVITEFRIEND_FAIL"  :"1780",
+                "FB_ANDROID_WHEEL_INVITEFRIEND_FAIL"  :"1790",
+                "DAILY_WHEEL_ERROR_PAGE"  :"1800",
+                "DAILY_WHEEL_COLLECT_PRICE_IE8_IE9" :"1810",
+                "FB_CANVAS_WHEEL_FRIENDPERMISSION_OPEN"  :"1820",
+                "FB_IOS_WHEEL_FRIENDPERMISSION_OPEN"  :"1830",
+                "FB_ANDROID_WHEEL_FRIENDPERMISSION_OPEN"  :"1840",
+                "FB_CANVAS_WHEEL_FRIENDPERMISSION_SUCCESS"  :"1850",
+                "FB_IOS_WHEEL_FRIENDPERMISSION_SUCCESS"  :"1860",
+                "FB_ANDROID_WHEEL_FRIENDPERMISSION_SUCCESS"  :"1870",
+                "FB_CANVAS_WHEEL_FRIENDPERMISSION_FAIL"  :"1880",
+                "FB_IOS_WHEEL_FRIENDPERMISSION_FAIL"  :"1890",
+                "FB_ANDROID_WHEEL_FRIENDPERMISSION_FAIL"  :"1900",
+                "FB_CANVAS_BASEBIGWIN_STORY_FAIL"  :"3000",
+                "FB_ANDROIDOS_WHEEL_MATHSCREEN_COLLECT"  :"3001",
+                "FB_undefined_WHEEL_ERROR_PAGE"  :"3002"
+                
+                
+
+            }
+        ,
+
+    "additionalParameters" :
+            {
+                "gameName":[{"key":"1","valueType":"long"}],
+                "fbUserId":[{"key":"6","valueType":"String"}],
+                "playerLevel":[{"key":"7","valueType":"long"}],
+                "gameLevel":[{"key":"8","valueType":"long"}],
+
+                "rank":[{"key":"10","valueType":"long"}],
+                "totalPlayers":[{"key":"11","valueType":"long"}],
+                "tournamentName":[{"key":"12","valueType":"String"}],
+
+                "amount":[{"key":"13","valueType":"double"}],
+                "credits":[{"key":"14","valueType":"long"}],
+                "currency":[{"key":"15","valueType":"String"}],
+                "productId":[{"key":"16","valueType":"long"}],
+
+                "tracking":[{"key":"30","valueType":"String"}],
+                "originStory":[{"key":"17","valueType":"String"}],
+                
+                "ShareType":[{"key":"9","valueType":"String"}],
+                "storyForm":[{"key":"9","valueType":"String"}],
+
+                "status":[{"key":"18","valueType":"String"}],
+
+                "numberGiftEarned":[{"key":"31","valueType":"long"}],
+                "numberGiftReceived":[{"key":"32","valueType":"long"}],
+                "numberGiftSent":[{"key":"33","valueType":"long"}],
+                "activeFacebookAppEvent":[{"key":"34","valueType":"long"}]
+
+
+            }
+}
