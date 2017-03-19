@@ -22,9 +22,6 @@ Class Error {
 
 	}
 	
-	
-	
-	
 // Custom error function, writes all errors in dev environments.  In live only writes to file in case of important error
 // Usage: to use manually trigger: err( (string) $error_message, (optional number) $important ).  $important flag means error will be logged to LIVE server log if on live server.  It does nothing different on other environments, merely is a way to conserve error log filesize on live environments
 	public static function customError($errno, $errstr, $errfile, $errline) 
@@ -35,12 +32,9 @@ Class Error {
 		$userAgent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
 		$important = isset($important) && !is_array($important) ? $important : 0;
 		$errstr = (strip_tags($errstr, '<b><i><u><br><ul><ol><li>'));
-//		$errstr = "UGP (" . gethostname(). ")\n" . $errstr;
 		$errfile = str_replace( '/data', '', $errfile);
 		$errString = "\n<b>" . date("m/d/Y h:i:sa T") . "</b>:  [$errno] $errstr <i>$errfile:$errline</i> <span = 'basic'>" . get_ip_address() . ' ' . $userAgent . "</span><br />\n";
-
 		$debug_back = debug_backtrace();
-	//	$errstr .= "\n\nDEBUG BACKTRACE:\n" . print_r($debug_back[1], true);
 
 		// if on dev or staging, log the error to the screen (if display errors is true)
 		if(ALLOW_DEBUG) if($displayErrorsOnScreen) echo $errString;
