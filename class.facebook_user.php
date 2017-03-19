@@ -4,7 +4,7 @@
  *
  * Managing Facebook Session and Facebook User profile Info
  *
- * @author  David Raleche <david.raleche@high5games.com> / Nathan Stokes <nathan.stokes@high5games.com> /
+ * @author  David Raleche 
  *
  * @since v1.0 - Jan 28 2015
  * Time: 1:51 PM
