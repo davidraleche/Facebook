@@ -1,28 +1,25 @@
 <?php
 /**	
 * 		Class USER
-*
-* 		@author 	David Raleche <david@raleche.com>
-* 		@date	  	Oct 3  2013
+* 		@author David Raleche <david@raleche.com>
 */
 
 class user 
 {
-		private 	$user_name 							= ""; 			// user's name
-		private		$email    	 						= 	'';
+		private 	$user_name = "";
+		private		$email  = '';
 
-
-// APP DEFAULTS
-		private	$originId								= 2; // 2 = h5c.net, 3 = facebook.com
-		private	$accountTypeId							= 2; // 2 = facebook, 1 = playreal
+		// APP DEFAULTS
+		private	$originId = 2; // 2 = h5c.net, 3 = facebook.com
+		private	$accountTypeId = 2; // 2 = facebook, 1 = playreal
 		private	$accountId;
 		public	$total_languages;
 		public	$last_language;
-		public 	$lang;				//User Locale
-		public 	$envLang;			//User Env Locale
+		public 	$lang; //User Locale
+		public 	$envLang; //User Env Locale
 		
 	
-/********************************************************************************************************************************/	
+	/********************************************************************************************************************************/	
 	// CLASS CONSTRUCTOR
 	public  function __construct($accountTypeId, $originId )
 	{
@@ -51,19 +48,14 @@ class user
 		//Check Cookie
 		$this->set_cookie();
 
-	//	echo "<!--";
-	//	print_r($this);
-	//	echo "-->";
 
 	}
 
 	
 	/********************************************************************************************************************************/	
 	// Private Function
-
-		/********************************************************
-	SET ENVLOCALE - LangID
-	********************************************************/
+	// SET ENVLOCALE - LangID
+	
 	public function	setEnvLocale()
 	{
 		global $USER, $_SERVER;
