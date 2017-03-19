@@ -11,8 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/includes/class.ugp_client.php');
   * 
   * Use CURL class to execute the web services 
   * 
-  * @author     Code implementation : David Raleche <david.raleche@high5games.com>
-  * @version    August 25th 2014 
+  * @author     Code implementation : David Raleche 
   * 
   */
 
@@ -93,8 +92,7 @@ class PaypalPayment extends UgpClient
     {	
   		//Check If json object
   		if(is_object(json_decode($initialiationParameterJsonObject)) === false)
-  			// throw new Exception('Unable to load - No Json Object');
-  			 return false;
+		 return false;
 
   		//Decode Json Object
   		$paypalParameterJsonObject = json_decode($initialiationParameterJsonObject);
@@ -106,7 +104,7 @@ class PaypalPayment extends UgpClient
   		$this->cancelUrl 		   = $paypalParameterJsonObject->cancelUrl;
   		$this->accountId 		   = $paypalParameterJsonObject->accountId;
   		$this->packageToken		 = $paypalParameterJsonObject->packageToken;
-      $this->purchaseToken   = $paypalParameterJsonObject->purchaseToken;
+     		$this->purchaseToken   = $paypalParameterJsonObject->purchaseToken;
 
       	//HTTP METHOD
   		$httpMethod 	= 'POST';
@@ -118,10 +116,9 @@ class PaypalPayment extends UgpClient
   		$webServiceUrl 	= $ugpService;
 
   		$body 			= array(
-       // "packageToken"	=> $this->packageToken,
   			"returnUrl"		=> $this->returnUrl,
   			"cancelUrl"		=> $this->cancelUrl,
-        "purchaseToken"    => $this->purchaseToken,
+		        "purchaseToken"    => $this->purchaseToken,
   			"casinoId"  	=> $this->casinoId);
 
   		// CURL EXECUTION
@@ -158,9 +155,6 @@ class PaypalPayment extends UgpClient
 
   		// CURL EXECUTION
   		$this->ugpClient  = $this->ugpClient->request($webServiceUrl, $httpMethod, null, null);
-
-          //$this->ugpClient->handleResponse($body);
-
   		if($this->ugpClient->isCode(200)) 		
   			return true;
   		else
@@ -192,7 +186,7 @@ class PaypalPayment extends UgpClient
 
   		//Body parameter
   		$body = array( 
-      "paymentId"         => $paymentId, 
+      		"paymentId"         => $paymentId, 
   		"payerId"           => $payerId, 
   		"accountTypeId" 		=> $accountTypeId,
   		"cancelUrl" 		    => $cancelUrl,
@@ -201,8 +195,6 @@ class PaypalPayment extends UgpClient
 
   		// CURL EXECUTION
   		$this->ugpClient  = $this->ugpClient->request($webServiceUrl, $httpMethod, null, $body);
-
-          //$this->ugpClient->handleResponse($body);
 
   		if($this->ugpClient->isCode(200)) 		
   			return true;
