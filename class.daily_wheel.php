@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/class.ugp_client.php';
 * 
 * Use CURL class to execute web services endpoints
 * 
-* @author     Code implementation : David Raleche <david.raleche@high5games.com>
+* @author     Code implementation : David Raleche
 * @version    April 21st 2016 
 * 
 */
